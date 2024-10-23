@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Chat with API</h1>
+    <textarea id="prompt" placeholder="メッセージを入力してください..."></textarea>
+    <input type="text" id="tokenInput" placeholder="Bearerトークンを入力してください..." value="">
+    <div class="button-group">
+        <button id="sendButton">メッセージ送信</button>
+        <button id="resetButton">チャットをリセット</button>
+    </div>
+    <div id="response" class="response"></div>
+    <div id="status" class="status"></div> <!-- 追加 -->
+</div>
+
+<script type="module" src="./main.js"></script>
+</body>
+</html>
