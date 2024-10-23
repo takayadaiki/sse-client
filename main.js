@@ -25,7 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-async function sendMessage(prompt, token = 'Os6_ShunLJ_3-DoRDu7GLg') {
+async function sendMessage(prompt, token = '
+
+') {
     const responseElement = document.getElementById('response');
     const statusElement = document.getElementById('status');
     const sendButton = document.getElementById('sendButton');
@@ -74,7 +76,9 @@ async function sendMessage(prompt, token = 'Os6_ShunLJ_3-DoRDu7GLg') {
     }
 }
 
-async function resetChat(token = 'Os6_ShunLJ_3-DoRDu7GLg') {
+async function resetChat(token = '
+
+') {
     const responseElement = document.getElementById('response');
     const statusElement = document.getElementById('status'); // 追加
     try {
